@@ -43,7 +43,7 @@ If you encounter any issues or have questions, feel free to open an [issue](http
 
 ## Contributing
 
-I welcome contributions from the open-source community. If you'd like to improve this script or add new features, feel free to open a pull request or contact me via [issue](https://github.com/CrazyWolf13/auto_gfpgan-installer/issues)
+I welcome contributions from the open-source community. If you'd like to improve this script or add new features, feel free to open a pull request or contact me via [issue](https://github.com/CrazyWolf13/auto_gfpgan-installer/issues).
 
 ## License
 
