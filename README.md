@@ -1,7 +1,7 @@
 # GFPGAN Automated Installer
 
 <p align="center">
-<img src="/assets/script_welcome.png" width=130% height=130%>
+<img src="/assets/script_welcome.png" width=150% height=150%>
 <br/><br/>
 <img src="https://github.com/TencentARC/GFPGAN/blob/master/assets/gfpgan_logo.png" width=30% height=30%>
 </p>
