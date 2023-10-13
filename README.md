@@ -4,7 +4,7 @@ Automatic installer for the Open-Source image enhancing software "GFPGAN", only 
 
 # GFPGAN Automated Installer
 
-![GFPGAN Logo]([gfpgan_logo.png](https://github.com/TencentARC/GFPGAN/blob/master/assets/gfpgan_logo.png))
+![GFPGAN Logo](https://github.com/TencentARC/GFPGAN/blob/master/assets/gfpgan_logo.png)
 
 Welcome to the GFPGAN Automated Installer repository! This batch script simplifies the installation process for GFPGAN, a powerful image-to-image translation tool, so that you don't have to run any complex commands manually. With this script, you can effortlessly set up GFPGAN on your system with optional NVIDIA GPU support and a user-friendly interface.
 
