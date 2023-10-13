@@ -1,7 +1,3 @@
-# auto_gfpgan-installer
-Automatic installer for the Open-Source image enhancing software "GFPGAN", only for Windows.
-
-
 # GFPGAN Automated Installer
 
 ![GFPGAN Logo](https://github.com/TencentARC/GFPGAN/blob/master/assets/gfpgan_logo.png)
