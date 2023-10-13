@@ -4,7 +4,7 @@
 
 Welcome to the GFPGAN Automated Installer repository! This batch script simplifies the installation process for GFPGAN, a powerful image-to-image translation tool, so that you don't have to run any complex commands manually. With this script, you can effortlessly set up GFPGAN on your system with optional NVIDIA GPU support and a user-friendly interface.
 
-Please check out the awesome [GFPGAN](https://github.com/TencentARC/GFPGAN/) Project.
+Please check out the awesome [GFPGAN](https://github.com/TencentARC/GFPGAN/) Project and give them a Star, they deserve it!
 
 ## Features
 
@@ -13,6 +13,9 @@ Please check out the awesome [GFPGAN](https://github.com/TencentARC/GFPGAN/) Pro
 - **NVIDIA GPU Support:** If you have an NVIDIA GPU, you can choose to enable CUDA support for faster processing. The script detects your GPU and configures GFPGAN accordingly.
 
 - **User-Friendly Interface:** Enjoy a hassle-free experience with a user-friendly interface. No need to deal with complex commands or configuration files.
+
+- **Colorful Output:** The script provides colorful output, making the installation process visually appealing and easy to follow.
+
 
 ## Prerequisites
 
@@ -48,4 +51,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Enjoy using GFPGAN with ease using this automated installer script. 
+Enjoy your GFPGAN installation. 
