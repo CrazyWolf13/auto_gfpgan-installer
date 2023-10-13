@@ -20,6 +20,8 @@ Please check out the awesome [GFPGAN](https://github.com/TencentARC/GFPGAN/) Pro
 
 - **Colorful Output:** The script provides colorful output, making the installation process visually appealing and easy to follow.
 
+- **Check the Code:** Due to the script being a batch file you can just right-click the file and select "Edit" to review the code by yourself.
+
 
 ## Prerequisites
 
