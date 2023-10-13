@@ -8,7 +8,7 @@
 
 Welcome to the GFPGAN Automated Installer repository! This batch script simplifies the installation process for GFPGAN, a powerful image-to-image translation tool, so that you don't have to run any complex commands manually. With this script, you can effortlessly set up GFPGAN on your system with optional NVIDIA GPU support and a user-friendly interface.
 
-Please check out the awesome [GFPGAN](https://github.com/TencentARC/GFPGAN/) Project and give them a Star, they deserve it!
+Please check out the awesome [GFPGAN](https://github.com/TencentARC/GFPGAN/) project and give them a star, they deserve it!
 
 ## Features
 
