@@ -125,11 +125,6 @@ echo @echo off
 echo echo.
 echo echo [34mScript to continue the installation after Reboot[0m 
 echo python.exe -m pip install --upgrade pip
-echo echo.
-echo rem specific for me
-echo mkdir Portraitarchiv_Crawler
-echo cd Portraitarchiv_Crawler
-echo rem end specific for me
 echo pip install wheel
 echo echo [34mCloning GFPGAN Repository[0m
 echo git clone https://github.com/TencentARC/GFPGAN.git
