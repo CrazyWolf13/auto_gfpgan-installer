@@ -180,6 +180,7 @@ echo ^(_____^)------------------------------------------^(_____^)
 echo.
 timeout /t 3 /NOBREAK >NUL
 echo.
+pause
 echo Cleaning up...
 del preinstall.bat
 del starter.bat
