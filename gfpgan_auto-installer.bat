@@ -158,7 +158,7 @@ echo exit
 
 start /max preinstall.bat
 exit
-
+wr7
 :after_reboot
 start /max install.bat
 exit
