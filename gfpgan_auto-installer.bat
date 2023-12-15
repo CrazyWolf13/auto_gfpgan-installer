@@ -150,7 +150,6 @@ echo wget %%model_link%% -P experiments/pretrained_models
 echo del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\autostart_gfpgan.bat"
 echo.
 echo cd ..
-echo cd ..
 echo echo " "^>finish.txt
 echo start /max gfpgan_auto-installer.bat
 echo exit
