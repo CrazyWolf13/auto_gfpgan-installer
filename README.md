@@ -6,6 +6,13 @@
 <img src="https://github.com/TencentARC/GFPGAN/blob/master/assets/gfpgan_logo.png" width=30% height=30%>
 </p>
 
+> [!WARNING]  
+> Due to an upstream problem with basicsr: [https://github.com/XPixelGroup/BasicSR/pull/667/](https://github.com/XPixelGroup/BasicSR/pull/667/commits/a6216bde14eaf5122528a9fd17eddd1c120f2b23) 
+> Which seems to not have been fixed yet.
+> So to manually adress this issue, after my script finishes installing, plase open the explorer visit the following path: `%localappdata%\Programs\Python\Python311\Scripts` Attention, your second python Folder may be named differently, so adapt this as needed.
+> After this open the file `degradations.py` via right-click, `edit with notepad`, then reaplce the line: `from torchvision.transforms.functional_tensor import rgb_to_grayscale` with `from torchvision.transforms.functional import rgb_to_grayscale`
+> This will resolve the issue.
+
 Welcome to the GFPGAN Automated Installer repository! This batch script simplifies the installation process for GFPGAN, a powerful image-to-image translation tool, so that you don't have to run any complex commands manually. With this script, you can effortlessly set up GFPGAN on your system with optional NVIDIA GPU support and a user-friendly interface.
 
 Please check out the awesome [GFPGAN](https://github.com/TencentARC/GFPGAN/) project and give them a star, they deserve it!
