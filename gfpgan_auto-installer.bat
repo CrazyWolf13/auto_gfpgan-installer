@@ -147,29 +147,6 @@ echo echo [34mDownloading model 1.4[0m
 echo set model_link^=https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
 echo set /p model_link^="[35mIf you want to download another model, paste the link here, otherwise press [ENTER]: [0m"
 echo wget %%model_link%% -P experiments/pretrained_models
-
-echo set "filepath=%localappdata%\Programs\Python\Python310\Lib\site-packages\basicsr\data\degradations.py"
-echo set "tempfile=%localappdata%\Programs\Python\Python310\Lib\site-packages\basicsr\data\degradations_temp.py"
-echo if not exist "%filepath%" ^(
-echo    echo File not found: %filepath%
-echo    exit /b 1
-echo ^)
-echo set /a counter=0
-echo for /f "delims=" %%i in ('findstr /n "^" "%filepath%"'^) do ^(
-echo     set /a counter+^=1
-echo     if !counter! equ 8 ^(
-echo         echo from torchvision.transforms.functional import rgb_to_grayscale>>"%tempfile%"
-echo     ^) else ^(
-echo         echo %%i>>"%tempfile%"
-echo     ^)
-echo ^)
-echo move /y "%tempfile%" "%filepath%"
-echo pause
-pause
-
-
-
-
 echo del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\autostart_gfpgan.bat"
 echo.
 echo cd ..
